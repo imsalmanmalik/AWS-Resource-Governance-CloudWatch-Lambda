@@ -26,9 +26,9 @@ This function would work for both volume modification events and snapshot creati
 ![55D21237-CECD-47D1-95EB-E5C97F84758D_1_201_a](https://github.com/imsalmanmalik/AWS-Resource-Governance-CloudWatch-Lambda/assets/121328365/9fa75fdf-3066-4081-92d3-ade6912d4c8d)
 
 
-## Getting Started
+# Getting Started
 
-# Prerequisites
+## Prerequisites
 
 - AWS account with access to EC2, Lambda, and CloudWatch Services
 - AWS CLI installed and configured
