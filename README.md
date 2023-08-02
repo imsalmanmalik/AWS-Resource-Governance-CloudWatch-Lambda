@@ -40,7 +40,7 @@ This function would work for both volume modification events and snapshot creati
 - Clone this repository to your local machine.<b>
 - Navigate to the AWS Lambda console and create a new function.<b>
 - In the function code section, upload the code from this repository.<b>
-- Make sure your Lambda function has the necessary IAM permissions. It should have access to ec2:ModifyVolume, ec2:CreateSnapshot, and ec2:CreateTags actions.<b>
+- Make sure your Lambda function has the necessary IAM permissions. It should have access to `ec2:ModifyVolume`, `ec2:CreateSnapshot`, and `ec2:CreateTags` actions.<b>
 - In the function triggers section, set up a new CloudWatch Event trigger. The event pattern should match EBS volume modification events and EBS snapshot creation events.<b>
 - Save your function.<b>
   
