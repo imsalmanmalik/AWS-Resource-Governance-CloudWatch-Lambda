@@ -9,6 +9,12 @@ In this function, we first check if the resource ARN in the event data is for a 
 
 This function would work for both volume modification events and snapshot creation events.
 
+
+## High Level Design
+
+![55D21237-CECD-47D1-95EB-E5C97F84758D_1_201_a](https://github.com/imsalmanmalik/AWS-Resource-Governance-CloudWatch-Lambda/assets/121328365/9fa75fdf-3066-4081-92d3-ade6912d4c8d)
+
+
 ## Project Scope
 
 - Unsecure S3 buckets: Lambda functions can be used to monitor S3 bucket access and enforce security policies, such as preventing public access, encrypting data at rest, and logging all access activity.<b>
@@ -20,10 +26,6 @@ This function would work for both volume modification events and snapshot creati
 - No automation of routine tasks: Lambda functions can be used to automate routine tasks, such as database backups, log analysis, and file processing. This can help reduce manual effort and improve efficiency.<b>
 
 - IAM permissions and roles: Lambda functions can be used to enforce IAM policies and roles, such as granting least privilege access and rotating access keys. This can help improve security and compliance.<b>
-
-## High Level Design
-
-![55D21237-CECD-47D1-95EB-E5C97F84758D_1_201_a](https://github.com/imsalmanmalik/AWS-Resource-Governance-CloudWatch-Lambda/assets/121328365/9fa75fdf-3066-4081-92d3-ade6912d4c8d)
 
 
 # Getting Started
