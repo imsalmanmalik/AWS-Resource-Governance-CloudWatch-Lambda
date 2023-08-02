@@ -11,15 +11,15 @@ This function would work for both volume modification events and snapshot creati
 
 ## Project Scope
 
-- **Fix**: Unsecure S3 buckets: Lambda functions can be used to monitor S3 bucket access and enforce security policies, such as preventing public access, encrypting data at rest, and logging all access activity.<b>
+- Unsecure S3 buckets: Lambda functions can be used to monitor S3 bucket access and enforce security policies, such as preventing public access, encrypting data at rest, and logging all access activity.<b>
 
-- **Fix**: No optimization of EC2 instances: Lambda functions can be used to monitor CPU utilization and other metrics of your EC2 instances, and automatically adjust the instance size or capacity based on the workload. This can help optimize performance and reduce costs.<b>
+- No optimization of EC2 instances: Lambda functions can be used to monitor CPU utilization and other metrics of your EC2 instances, and automatically adjust the instance size or capacity based on the workload. This can help optimize performance and reduce costs.<b>
 
-- **Fix**: No automation of backups and disaster recovery: Lambda functions can be used to schedule backups and automate disaster recovery processes, such as copying data to a backup S3 bucket or launching a new EC2 instance in case of a failure.<b>
+- No automation of backups and disaster recovery: Lambda functions can be used to schedule backups and automate disaster recovery processes, such as copying data to a backup S3 bucket or launching a new EC2 instance in case of a failure.<b>
 
-- **Fix**: No automation of routine tasks: Lambda functions can be used to automate routine tasks, such as database backups, log analysis, and file processing. This can help reduce manual effort and improve efficiency.<b>
+- No automation of routine tasks: Lambda functions can be used to automate routine tasks, such as database backups, log analysis, and file processing. This can help reduce manual effort and improve efficiency.<b>
 
-- **Fix**: IAM permissions and roles: Lambda functions can be used to enforce IAM policies and roles, such as granting least privilege access and rotating access keys. This can help improve security and compliance.<b>
+- IAM permissions and roles: Lambda functions can be used to enforce IAM policies and roles, such as granting least privilege access and rotating access keys. This can help improve security and compliance.<b>
 
 ## High Level Design
 
